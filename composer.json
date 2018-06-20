@@ -1,0 +1,38 @@
+{
+    "name": "daikazu/laravel-recursive-collection",
+    "description": "Convert nested arrays, associative, and multidimensional arrays into nested collections.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Wall",
+            "email": "daikazu@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "laravel-collection",
+        "laravel-recursive-collection",
+        "collections"
+    ],
+    "require": {
+        "illuminate/support": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daikazu\\Laravel\\":"src"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Daikazu\\Laravel\\RecursiveCollectionServiceProvider"
+            ]
+        }
+    }
+}
